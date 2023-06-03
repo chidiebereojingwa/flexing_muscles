@@ -1,3 +1,4 @@
-name = input('What is your name? : ')
-fav_color = input('What is your favourite colour? : ')
-print(name + ' likes ' + fav_color)
+weight = input('What is your weight in pounds? : ')
+weight_kilo = (int(weight))/2.204
+str_weight = str(weight_kilo) + 'kg'
+print(str(str_weight))
