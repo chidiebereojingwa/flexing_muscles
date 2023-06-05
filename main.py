@@ -1,5 +1,8 @@
-good_credit = True
-if good_credit:
-    print("Pay 10% of 1m")
+name = input("Type in your name: ")
+name_len = len(name)
+if name_len < 3:
+    print("name must be at least 3 characters")
+elif name_len > 50:
+    print("name can be a maximum of 50 characters")
 else:
-    print("Pay 20% of 1m")
+    print("name looks good")
