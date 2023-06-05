@@ -1,4 +1,5 @@
-weight = input('What is your weight in pounds? : ')
-weight_kilo = (int(weight))/2.204
-str_weight = str(weight_kilo) + 'kg'
-print(str(str_weight))
+good_credit = True
+if good_credit:
+    print("Pay 10% of 1m")
+else:
+    print("Pay 20% of 1m")
