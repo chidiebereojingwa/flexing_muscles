@@ -1,9 +1,6 @@
-weight = input("Type in your weight: ")
-unit = input("L for Lb or K for kg: ")
-use_unit = unit.upper()
-weight_kg = int(weight) * 0.45
-weight_lb = int(weight) * 2.2
-if use_unit == "L":
-    print(weight_lb)
-else:
-    print(weight_kg)
+numbers = [3, 6, 800, 4, 9, 10]
+highest = 0
+for num in numbers:
+    if num > highest:
+        highest = num
+print(highest)
