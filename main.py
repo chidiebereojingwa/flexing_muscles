@@ -10,14 +10,20 @@
 #     num_word += number_dict.get(ch, "!") + " "
 # print(num_word)
 
+#
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def talk(self):
+#         print(f"Hi, is me {self.name}")
+#
+#
+# john = Person('Bob smith')
+# john.talk()
 
-class Person:
-    def __init__(self, name):
-        self.name = name
+def lbs_to_kg(wieght):
+    return wieght* 0.45
 
-    def talk(self):
-        print(f"Hi, is me {self.name}")
-
-
-john = Person('Bob smith')
-john.talk()
+man = lbs_to_kg(50)
+print(man)
